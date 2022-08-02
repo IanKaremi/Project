@@ -1,0 +1,60 @@
+input[type="submit" i],[type ="reset"], [type ="button" i]{
+  align-items: center;
+  background-clip: padding-box;
+  background-color: white ;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  /*min-height: 2rem;
+  */padding: calc(.750rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 50ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  -webkit-transition: all 50ms;
+  -moz-transition: all 50ms;
+  -ms-transition: all 50ms;
+  -o-transition: all 50ms;
+}
+input[type="button" i]{
+  background-color: rgb(119, 211, 13);
+}
+
+input [type="button"]:hover, [type="button"]:focus{
+  background-color: black;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  transform: translateY(-1px);
+}
+
+input[type="submit" i]:hover
+input[type="submit" i]:focus{
+  background-color: rgba(138, 92, 255, 0.576);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+input[type="submit" i]:hover ,[type ="reset"]:hover {
+  transform: translateY(-1px);
+}
+
+input[type="submit" i]:active, [type="reset" i]:active ,[type="button" i]:active {
+  background-color: rgba(138, 92, 255, 0.576);
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+

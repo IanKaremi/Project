@@ -1,0 +1,26 @@
+#rev{
+    font-size: 2em;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+#rev>div{
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+#gen{
+    font: 1.5em sans-serif;
+}
+#art{
+    font: 1.5em sans-serif;
+}
+td{
+    padding: 10px;
+}
+thead{
+    font-size: large;
+    text-decoration: underline white;
+}
+table{
+    padding-left: 10px;
+}
